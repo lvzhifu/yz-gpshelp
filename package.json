@@ -1,0 +1,26 @@
+{
+  "name": "yz-gpshelp",
+  "version": "1.0.0",
+  "description": "H5 geolocation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvzhifu/yz-gpshelp.git"
+  },
+  "keywords": [
+    "geolocation",
+    "OpenStreetMap"
+  ],
+  "author": "烨智科技",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvzhifu/yz-gpshelp/issues"
+  },
+  "homepage": "https://github.com/lvzhifu/yz-gpshelp#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
