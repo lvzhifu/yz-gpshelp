@@ -42,8 +42,8 @@ class OSMHelp {
       }
       const urlArray = []
       urlArray.push('https://nominatim.openstreetmap.org/reverse?format=json')
-      urlArray.push(`lat=${params.lat}`) // 经度
-      urlArray.push(`lon=${params.lon}`) // 纬度
+      urlArray.push(`lat=${params.lat}`) // 纬度
+      urlArray.push(`lon=${params.lon}`) // 经度
       urlArray.push('zoom=18') // 详细程度
       urlArray.push('addressdetails=1') // 地址展示行为
       urlArray.push('accept-language=en') // 数据展示的语言
